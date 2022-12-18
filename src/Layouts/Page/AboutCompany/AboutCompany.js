@@ -4,8 +4,8 @@ import Addresses from "./Components/Addresses/Addresses";
 function AboutCompany() {
     return (
         <div>
-            <Heading/> {/* Заголовок и кнопка справа */}
-            <div className='d-flex flex-column mt-5'>
+            <Heading/>  {/* Заголовок и кнопка справа */}
+            <div className='d-flex justify-content-between flex-row gap-4 mt-4 p-4'>
                 <General/>  {/* Основная информация вроде названия, типа и телефона */}
                 <Addresses/> {/* Список доступных адресов заведений */}
             </div>
